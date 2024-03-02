@@ -21,6 +21,8 @@ Master Tutor is an online platform designed to facilitate tutoring sessions betw
   <li>Version Control: Git, GitHub</li>
 </ul>
 
+<h4>Made By: Tanisha & Sahil</h4>
+
 
 
 
