@@ -1,4 +1,4 @@
-**Master Tutor**
+<h1>Master Tutor</h1>
 
 Master Tutor is an online platform designed to facilitate tutoring sessions between tutors and students. Whether you're looking to enhance your knowledge in a particular subject or seeking guidance for academic excellence, Master Tutor provides a seamless experience for connecting tutors and students.
 
