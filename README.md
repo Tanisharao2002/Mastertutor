@@ -13,10 +13,14 @@ Master Tutor is an online platform designed to facilitate tutoring sessions betw
 **Rating and Feedback:** After each session, students can rate and provide feedback on their tutoring experience, helping to maintain quality and improve services.
 
 
-**Technologies Used**
+**Technologies Used:**
 
-**Frontend: ** HTML, CSS, JavaScript, React.js
-**Backend:**  Node.js, Express.js, MongoDB
-**Authentication:** JSON Web Tokens (JWT)
-**Database:** MongoDB Atlas
+**Frontend:** HTML, CSS, JavaScript, React.js
+
+**Backend:**  Google Firebase
+
+**Authentication:** Google Firebase
+
+**Database:** Google Firebase
+
 **Version Control:**  Git, GitHub
