@@ -22,8 +22,6 @@ Master Tutor is an online platform designed to facilitate tutoring sessions betw
 </ul>
 
 <h4>Made By: Tanisha & Sahil</h4>
-<h3>@sahilkalkal9</h3>
-<h3>tanisharao2002</h3>
 
 
 
