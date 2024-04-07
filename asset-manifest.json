@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Master-tutor/static/css/main.094dd2dd.css",
+    "main.css": "/Master-tutor/static/css/main.e871adfd.css",
     "main.js": "/Master-tutor/static/js/main.e34966b4.js",
     "static/js/453.fef88b20.chunk.js": "/Master-tutor/static/js/453.fef88b20.chunk.js",
     "static/media/background-home.jpg": "/Master-tutor/static/media/background-home.0aec63b605f6d18aecdd.jpg",
     "index.html": "/Master-tutor/index.html",
-    "main.094dd2dd.css.map": "/Master-tutor/static/css/main.094dd2dd.css.map",
+    "main.e871adfd.css.map": "/Master-tutor/static/css/main.e871adfd.css.map",
     "main.e34966b4.js.map": "/Master-tutor/static/js/main.e34966b4.js.map",
     "453.fef88b20.chunk.js.map": "/Master-tutor/static/js/453.fef88b20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.094dd2dd.css",
+    "static/css/main.e871adfd.css",
     "static/js/main.e34966b4.js"
   ]
 }
