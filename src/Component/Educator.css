@@ -1,0 +1,275 @@
+.Tutor {
+    width: 100%;
+}
+
+.TutorChild {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5cm;
+
+}
+
+.background-image1 {
+    top: 0;
+    position: relative;
+    width: 100%;
+    height: 75svh;
+    background-image: url("./Images/bgTutor.jpg");
+    backdrop-filter: brightness(50%);
+    /* Adjust the brightness percentage as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.backdrop {
+    backdrop-filter: brightness(50%);
+    height: fit-content;
+}
+
+.searchContainer {
+    width: 100%;
+}
+
+.searchParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5cm;
+}
+
+.searchBox {
+    width: 15cm;
+    padding: 0.3cm 0.8cm;
+    border-radius: 18px;
+    border: thin solid grey;
+    font-size: 18px;
+}
+
+.searchBox:focus {
+    border: 2px solid blue;
+}
+
+.searchButton {
+    background-color: rgb(0, 130, 252);
+    padding: 0.3cm 0.5cm;
+    border-radius: 25px;
+    color: white;
+    font-size: 14px;
+    border: none;
+}
+
+.searchButton:hover {
+    background-color: rgb(0, 99, 192);
+    cursor: pointer;
+}
+
+.filtIcon {
+    width: 0.8cm;
+}
+
+.overlayFilter {
+    position: relative;
+    z-index: 2;
+    /* border:thin solid grey; */
+    width: fit-content;
+    padding: 0.5cm;
+
+    /* border-radius: 15px; */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#overlayFilter {
+    display: none;
+}
+
+.overlayFilterChildren {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3cm;
+}
+
+.overlayFilterChildren1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rateRange {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.2cm;
+}
+
+.msgContainer {
+    position: relative;
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    margin: 0.5cm;
+
+}
+
+.msgImg {
+    width: 1.5cm;
+    box-shadow: 0px 8px 16px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.msgIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 90%;
+    bottom: 0;
+    /* background-color: #ffffff; */
+    z-index: 2;
+}
+
+.msgImg:hover {
+    animation: wiggle 0.5s infinite;
+}
+
+@keyframes wiggle {
+    0% {
+        transform: rotate(-8deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+.downButton {
+    width: 0.5cm;
+}
+
+.sendButton {
+    width: 0.8cm;
+}
+
+.messageTop {
+    background-color: #2184cb;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 0.1cm 0.2cm;
+}
+
+#overlayMessage {
+    display: none;
+}
+
+.message-box {
+    min-height: 10cm;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    row-gap: 0.2cm;
+}
+
+.msg {
+    border-radius: 15px;
+    /* text-wrap: wrap; */
+    margin: 0.2cm;
+    font-size: 14px;
+    
+}
+
+.left {
+    text-align: left;
+}
+
+.left-msg {
+    background-color: aqua;
+    width: fit-content;
+    padding: 0.2cm;
+    max-width: 80%
+}
+
+.right {
+    background-color: rgb(86, 221, 158);
+    padding: .2cm;
+    border-radius: 15px;
+    word-break: break-word;
+    width: fit-content;
+    max-width: 80%;
+    /* align: right; */
+    text-align: left;
+}
+
+.right-msg {
+    /* justify-content: flex-end; */
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid red; */
+
+
+}
+
+.overlayMessage {
+    min-width: 8cm;
+    height: 12cm;
+    border-radius: 20px;
+    padding: 0.3cm 0.2cm;
+    background-color: #2184cb;
+    position: fixed;
+    bottom: 1cm;
+    overflow-y: visible;
+}
+
+.overlayMessageChildren1 {
+    display: flex;
+    flex-direction: column;
+    width: 8cm;
+}
+
+.messageInput {
+    display: flex;
+    flex-direction: row;
+    padding: 0.2cm;
+    column-gap: 0.1cm;
+}
+
+.inputMsg {
+    width: 90%;
+    /* Adjust width as needed */
+    padding: 8px;
+    /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    /* Add border for better visibility */
+    border-radius: 4px;
+    /* Add border radius for better appearance */
+    box-sizing: border-box;
+    /* Ensure padding and border are included in the width */
+}
