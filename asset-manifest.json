@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mastertutor/static/css/main.2988a878.css",
-    "main.js": "/Mastertutor/static/js/main.34bd5b49.js",
+    "main.css": "/Mastertutor/static/css/main.2a995cf1.css",
+    "main.js": "/Mastertutor/static/js/main.341e9954.js",
     "static/js/453.fef88b20.chunk.js": "/Mastertutor/static/js/453.fef88b20.chunk.js",
     "static/media/greenBG.jpeg": "/Mastertutor/static/media/greenBG.df12922a35e23acfdca7.jpeg",
     "static/media/bgTutor.jpg": "/Mastertutor/static/media/bgTutor.babdc48612be067c2985.jpg",
@@ -15,12 +15,12 @@
     "static/media/notesW.png": "/Mastertutor/static/media/notesW.5720710a33db980f2b86.png",
     "static/media/assignmentW.png": "/Mastertutor/static/media/assignmentW.221c10c19db4c3640c51.png",
     "index.html": "/Mastertutor/index.html",
-    "main.2988a878.css.map": "/Mastertutor/static/css/main.2988a878.css.map",
-    "main.34bd5b49.js.map": "/Mastertutor/static/js/main.34bd5b49.js.map",
+    "main.2a995cf1.css.map": "/Mastertutor/static/css/main.2a995cf1.css.map",
+    "main.341e9954.js.map": "/Mastertutor/static/js/main.341e9954.js.map",
     "453.fef88b20.chunk.js.map": "/Mastertutor/static/js/453.fef88b20.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2988a878.css",
-    "static/js/main.34bd5b49.js"
+    "static/css/main.2a995cf1.css",
+    "static/js/main.341e9954.js"
   ]
 }
