@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mastertutor/static/css/main.ee74d136.css",
-    "main.js": "/Mastertutor/static/js/main.f1b6099c.js",
+    "main.js": "/Mastertutor/static/js/main.f2b26346.js",
     "static/js/453.fef88b20.chunk.js": "/Mastertutor/static/js/453.fef88b20.chunk.js",
     "static/media/group.jpg": "/Mastertutor/static/media/group.a9644065ca4e9e41349b.jpg",
     "static/media/greenBG.jpeg": "/Mastertutor/static/media/greenBG.df12922a35e23acfdca7.jpeg",
@@ -17,11 +17,11 @@
     "static/media/assignmentW.png": "/Mastertutor/static/media/assignmentW.221c10c19db4c3640c51.png",
     "index.html": "/Mastertutor/index.html",
     "main.ee74d136.css.map": "/Mastertutor/static/css/main.ee74d136.css.map",
-    "main.f1b6099c.js.map": "/Mastertutor/static/js/main.f1b6099c.js.map",
+    "main.f2b26346.js.map": "/Mastertutor/static/js/main.f2b26346.js.map",
     "453.fef88b20.chunk.js.map": "/Mastertutor/static/js/453.fef88b20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee74d136.css",
-    "static/js/main.f1b6099c.js"
+    "static/js/main.f2b26346.js"
   ]
 }
